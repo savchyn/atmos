@@ -11,3 +11,6 @@ clean:
 test:	atmos
 
 .PHONY: all clean test
+
+atmos.o: atmos.c
+
