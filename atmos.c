@@ -5,6 +5,8 @@
 // 3. no global variables allowed
 // 3.14 no external dependences allowed
 
+#error "Please excuse me, i've killed the buildability of this project"
+
 int NULL(void * buffer)
 {
   int result = (buffer==NULL)?-1:0;
